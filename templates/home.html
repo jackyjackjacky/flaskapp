@@ -1,18 +1,19 @@
-​<!DOCTYPE html>
 <html>
-<head>
-<style>
-body  {
-  background-image: url("./vaporwave.jpeg");
-  background-color: #cccccc;
-}
-</style>
-</head>
-<body>
+    <head>
+        <title>EC2 Instance</title>
+        <link href="/public/app.css" rel="stylesheet">
+    </head>
 
-<h1>The background-image Property</h1>
+    <h1>My IP Address:
+        <br><br>
+        {{hostname}}
+    </h1>
 
-<p>Hello World!</p>
-
-</body>
+    <h2>
+        More Information:
+        <br>
+        <ul>
+        <li> IP: {{user_IP}} </li>
+        </ul>
+    </h2>
 </html>
