@@ -1,19 +1,32 @@
 <html>
     <head>
         <title>EC2 Instance</title>
-        <link href="/public/app.css" rel="stylesheet">
+        <link rel="stylesheet" href="/public/app.css">
+        <style>
+            body {
+                background-image:
+                linear-gradient(to bottom, rgba(245, 130, 210, 0.534), rgba(103, 29, 199, 0.5)),
+                url('https://i.postimg.cc/jjkz6NtH/vaporwave.jpg');
+            }
+        </style>
     </head>
+<div>    
+    <body>
+        <h1>My IP Address:
+            <br><br>
+            {{ hostname }} 
+            <br>
+            3.83.235.227
+        </h1>
 
-    <h1>My IP Address:
-        <br><br>
-        {{hostname}}
-    </h1>
-
-    <h2>
-        More Information:
-        <br>
-        <ul>
-        <li> IP: {{user_IP}} </li>
-        </ul>
-    </h2>
+        <h2>
+            More Information:
+            <br>
+            <ul>
+            <li> Your IP: {{user_IP}} </li>
+            <li>Your browser info: {{user_agent}}</li>
+            </ul>
+        </h2>
+    </body>
+</div>
 </html>

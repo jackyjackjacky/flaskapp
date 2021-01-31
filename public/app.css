@@ -1,16 +1,6 @@
-body, html {
-    height: 100%;
-  }
-  
-  .bg {
-    /* The image used */
-    background-image: url("../images/vaporwave.jpeg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+div {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png");
+    height: 400px;
+    width: 100%;
+ }
